@@ -59,9 +59,29 @@
                 </h3></p>
             <p><h3>To learn more about my training and offering of the Gyrotonic and Gyrokinesis sessions in Fort Collins, CO, please fill out the <em>Let's Connect</em> sheet below</li></h3>
 </p></section>
+<section>
+    <h2>LET'S CONNECT!</h2>
+    <form action="process_form.php" method="post">
+        <label for="name">Preferred Name:</label>
+        <input type="text" id="name" name="preferred_name" required>
 
-        </article>
-    </main>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="session">I wanna know current and future offerings in:</label>
+        <select id="session" name="session" required>
+            <option value="Gyrokinesis">Gyrokinesis</option>
+            <option value="Gyrotonic">Gyrotonic</option>
+            <option value="Both">Both</option>
+        </select>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+
+</article>
+</main>
 </body>
 
 </html>
