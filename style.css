@@ -3,8 +3,8 @@ img {
     display: block;
             margin: 10px auto; /* Centers the image horizontally and adds some vertical margin */
     
-    border-radius: 50%; /* Makes the image round */
-    width: 50%; /* Set the width to 25% of the original size */
+    border-radius: 25%; /* Makes the image round */
+    width: 30%; /* Set the width to 25% of the original size */
     height: auto; /* Maintain the aspect ratio */
 }
 .container {
