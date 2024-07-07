@@ -1,9 +1,9 @@
 
 img {
     display: block;
-            margin: 10px auto; /* Centers the image horizontally and adds some vertical margin */
+            margin: 1pX auto; /* Centers the image horizontally and adds some vertical margin */
     
-    border-radius: 25%; /* Makes the image round */
+    border-radius: 50%; /* Makes the image round */
     width: 30%; /* Set the width to 25% of the original size */
     height: auto; /* Maintain the aspect ratio */
 }
@@ -24,6 +24,7 @@ body {
     margin: auto;
 }
 h1 {
+    text-align:center;
     font-size: 3em;
     letter-spacing: .2em;
     padding-top: .5em;
@@ -31,14 +32,29 @@ h1 {
 }
 
 h2 {
+    text-align:center;
+    !text-indent:40px;
     font-size: 1.5em;
+    padding-top: .2em;
     padding-bottom: .5em;
 }
-
+p{
+    text-align:center;
+    text-indent:px;
+    font-size: 1.1em;
+    padding-bottom: .5em; 
+}
 h3 {
+    text-align:left;
     font-size: 1.2em;
+}
+h4 {
+    text-align:left;
+    text-indent:40px;
+    font-size: 1.1em;
     padding-bottom: .1em;
 }
+
     main { 
         display: grid;
         grid-template-columns: 40% 60%;
@@ -48,14 +64,7 @@ h3 {
         text-align: center;
         margin: auto 2em;
     }
-    #header {
-        text-align: center;
-    }
-    #header img {
-        border-radius: 50%; /* Makes the image round */
-        width: 25%; /* Set the width to 25% of the original size */
-        height: auto; /* Maintain the aspect ratio */
-    }
+
     section {
         margin: auto 1em 4em 2em;
     }
@@ -80,4 +89,37 @@ h3 {
     }
     #mainLeft {
         border-right: 1px solid lightgray;
+    }
+    form {
+        max-width: px;
+        margin: auto;
+        padding: 30px;
+        border: px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 6px;
+        
+    }
+    
+    input, select, button {
+        width: 95%;
+        padding: 8px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: calibri, sans-serif;
+    }
+    
+    button {
+        background-color: #4c93af;
+        color: rgb(255, 255, 255);
+        border: none;
+    }
+    
+    button:hover {
+        background-color: #4556a0;
     }
