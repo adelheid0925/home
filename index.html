@@ -46,69 +46,24 @@
                 <p>
                     
                     <a href="https://www.gyrotonic.com/trainer/19162/">Gyrotonic Trainer Profile</a>
-                </p><p><a href="https://calendly.com/ht443-colostate/gyrotonic">Calendly</a></p>
+                </p><p><a href="https://docs.google.com/forms/d/e/1FAIpQLSfUguSONHMBY48qjfvEbHfSPcD6ew_5D8vAndBwwcDLW8U3Ag/viewform?usp=sf_link">Google Form: Gyrotonic® and Gyrokinesis®</a></p>
             </p>
 </section>
         </article>
         <article id="mainRight">
             <section>
                 <h2>ABOUT ME </h2>
-                <h3>A native of Taiwan, I am a trained lifespan developmental psychologist, a returning dancer, and a movement educator based in Fort Collins, Colorado. My program of research focuses on the psychological and motivational processes that promote healthy and optimal adult development and aging. My passion lies in sharing the art and science of movement with the Gyrotonic® and Gyrokinesis® methods for both rehabilitative and recreational purposes.</h3> 
+                <h3>A native of Taiwan, I am a trained lifespan developmental scientist, a returning dancer, and a movement educator based in Fort Collins, Colorado.</h3> 
                 <p><h3>
-                    To learn more about my research, please refer to my CV and Google Scholar profile on the left.
-                </h3></p>
-            <h3>To learn more about my training and offering of the Gyrotonic and Gyrokinesis sessions in Fort Collins, CO, please fill out the <em>Let's Connect!</em> sheet below</li></h3>
+                    My research program focuses on the psychological and motivational processes that promote healthy and optimal adult development and aging. For my doctoral research, I employed advanced statistical methods to investigate questions such as: (a) whether and to what extent a latent psychological construct like attitudes can be validly and unbiasedly captured cross-culturally through self-report questionnaires and computer-administered tasks, and (b) if individuals' attitudes towards aging in midlife uniquely predict long-term changes in or maintenance of health and subjective well-being into late life.
+
+</h3</p>
+<p><h3>Additionally, I am interested in applied and translational research, evaluating the health impacts of behavioral interventions. My work addresses questions such as (a) the pathways through which psychological and functional health are affected by the intervention, (b) the temporal context of these associations (e.g., immediate or delayed, fleeting or enduring), and (c) the characteristics of individuals likely to benefit, or not, from the intervention.
+</h3></p>
+<p><h3>To learn more about my research, please refer to my CV and Google Scholar profile on the left.</h3></p>
+</h3> </p>            <p><h3>Outside of academia, my passion lies in sharing the art and science of movement. I specialize in the Gyrotonic® and Gyrokinesis® methods, applying them for cross-training in dance, rehabilitation, and recreational purposes. To learn more about Gyrotonic and Gyrokinesis sessions in Fort Collins, CO, please send me an inquiry via email or fill out the Google form on the left. I look forward to meeting you and building a local Gyro community in Fort Collins!</h3></p>
 </section>
-<section>
-    <h2>LET'S CONNECT!</h2>
-    <script>
-        function handleSubmit(event) {
-            event.preventDefault(); // Prevent the form from submitting the default way
-            var form = event.target;
-            
-            // Display the thank you message
-            var thankYouMessage = document.createElement('p');
-            thankYouMessage.textContent = 'Thank you! I will be in contact soon!';
-            form.appendChild(thankYouMessage);
 
-            // Create a new FormData object to send the form data
-            var formData = new FormData(form);
-
-            // Send the form data using Fetch API
-            fetch('process_form.php', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.text())
-            .then(result => {
-                console.log('Success:', result);
-            })
-            .catch(error => {
-                console.error('Error:', error);
-            });
-        }
-    </script>
-</head>
-<body>
-    <section>
-        <form onsubmit="handleSubmit(event)">
-            <label for="name">Preferred Name:</label>
-            <input type="text" id="name" name="preferred_name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="session">I wanna know current and future offerings in:</label>
-            <select id="session" name="session" required>
-                <option value="Gyrokinesis">Gyrokinesis</option>
-                <option value="Gyrotonic">Gyrotonic</option>
-                <option value="Both">Both</option>
-            </select>
-
-            <button type="submit">Submit</button>
-        </form>
-
-</script>
 </head>
 <body>
 
