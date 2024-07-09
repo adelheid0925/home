@@ -55,6 +55,14 @@ h4 {
     padding-bottom: .1em;
 }
 
+h5 {
+    text-decoration-color: #4c93af;
+    text-align:center;
+    #text-indent:40px;
+    font-size: 1.2em;
+    #padding-bottom: em;
+}
+
     main { 
         display: grid;
         grid-template-columns: 40% 60%;
