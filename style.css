@@ -42,7 +42,7 @@ p{
     text-align:center;
     text-indent:px;
     font-size: 1.1em;
-    padding-bottom: .5em; 
+    #padding-bottom: .5em; 
 }
 h3 {
     text-align:left;
@@ -52,16 +52,18 @@ h4 {
     text-align:left;
     text-indent:40px;
     font-size: 1.1em;
-    padding-bottom: .1em;
+    !padding-bottom: .1em;
 }
 
 h5 {
-    text-decoration-color: #4c93af;
+    color:#098a9b ;
     text-align:center;
     #text-indent:40px;
     font-size: 1.2em;
     #padding-bottom: em;
 }
+
+
 
     main { 
         display: grid;
